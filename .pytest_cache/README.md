@@ -1,8 +1,22 @@
-# pytest cache directory #
+# Автоматизированные тесты для Tooster
 
-This directory contains data from the pytest's cache plugin,
-which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
+Репозиторий содержит UI-автотесты на Python с использованием pytest и Selenium WebDriver.
 
-**Do not** commit this to version control.
+## Что тестируется
+1. **Авторизация** (`test_auth.py`) – успешный вход в систему.
+2. **Смена темы** (`test_theme.py`) – переключение на темную тему.
+3. **Сохранение темы** (`test_theme_persist.py`) – тема сохраняется после перезагрузки.
+4. **Создание каталога** (`test_catalog.py`) – создание каталога в папке "4 Орлова".
+5. **Создание кейса** (`test_case.py`) – создание кейса в папке "4 Орлова".
 
-See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+## Требования
+- Python 3.8+
+- Google Chrome
+- ChromeDriver
+
+## Установка и запуск
+
+1. Клонирование:
+   ```bash
+   git clone <ссылка_на_репозиторий>
+   cd tooster_tests

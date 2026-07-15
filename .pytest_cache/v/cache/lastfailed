@@ -1,1 +1,3 @@
-{}
+{
+  "tests/test_catalog_prepare.py::test_catalog_prepare": true
+}

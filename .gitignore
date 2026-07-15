@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Скриншоты
+*.png
+report.html
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Отладочные файлы
+debug_buttons.py
+find_folder.py
+get_full_html.py
+login_page.html
+pytest
+time
