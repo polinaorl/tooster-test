@@ -1,0 +1,190 @@
+<html lang="en" data-theme="light-red"><head>
+    <meta charset="UTF-8">
+    <link id="favicon" rel="icon" href="/favicon-red.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <script type="module" crossorigin="" src="/assets/index-CVSwCtU5.js"></script>
+    <link rel="stylesheet" crossorigin="" href="/assets/index-Df3qY_SM.css">
+  <style type="text/css">.cdx-notify--error{background:#fffbfb!important}.cdx-notify--error::before{background:#fb5d5d!important}.cdx-notify__input{max-width:130px;padding:5px 10px;background:#f7f7f7;border:0;border-radius:3px;font-size:13px;color:#656b7c;outline:0}.cdx-notify__input:-ms-input-placeholder{color:#656b7c}.cdx-notify__input::placeholder{color:#656b7c}.cdx-notify__input:focus:-ms-input-placeholder{color:rgba(101,107,124,.3)}.cdx-notify__input:focus::placeholder{color:rgba(101,107,124,.3)}.cdx-notify__button{border:none;border-radius:3px;font-size:13px;padding:5px 10px;cursor:pointer}.cdx-notify__button:last-child{margin-left:10px}.cdx-notify__button--cancel{background:#f2f5f7;box-shadow:0 2px 1px 0 rgba(16,19,29,0);color:#656b7c}.cdx-notify__button--cancel:hover{background:#eee}.cdx-notify__button--confirm{background:#34c992;box-shadow:0 1px 1px 0 rgba(18,49,35,.05);color:#fff}.cdx-notify__button--confirm:hover{background:#33b082}.cdx-notify__btns-wrapper{display:-ms-flexbox;display:flex;-ms-flex-flow:row nowrap;flex-flow:row nowrap;margin-top:5px}.cdx-notify__cross{position:absolute;top:5px;right:5px;width:10px;height:10px;padding:5px;opacity:.54;cursor:pointer}.cdx-notify__cross::after,.cdx-notify__cross::before{content:'';position:absolute;left:9px;top:5px;height:12px;width:2px;background:#575d67}.cdx-notify__cross::before{transform:rotate(-45deg)}.cdx-notify__cross::after{transform:rotate(45deg)}.cdx-notify__cross:hover{opacity:1}.cdx-notifies{position:fixed;z-index:2;bottom:20px;left:20px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif}.cdx-notify{position:relative;width:220px;margin-top:15px;padding:13px 16px;background:#fff;box-shadow:0 11px 17px 0 rgba(23,32,61,.13);border-radius:5px;font-size:14px;line-height:1.4em;word-wrap:break-word}.cdx-notify::before{content:'';position:absolute;display:block;top:0;left:0;width:3px;height:calc(100% - 6px);margin:3px;border-radius:5px;background:0 0}@keyframes bounceIn{0%{opacity:0;transform:scale(.3)}50%{opacity:1;transform:scale(1.05)}70%{transform:scale(.9)}100%{transform:scale(1)}}.cdx-notify--bounce-in{animation-name:bounceIn;animation-duration:.6s;animation-iteration-count:1}.cdx-notify--success{background:#fafffe!important}.cdx-notify--success::before{background:#41ffb1!important}</style><style>.ce-paragraph {
+    line-height: 1.6em;
+    outline: none;
+}
+
+.ce-paragraph[data-placeholder]:empty::before{
+  content: attr(data-placeholder);
+  color: #707684;
+  font-weight: normal;
+  opacity: 0;
+}
+
+/** Show placeholder at the first paragraph if Editor is empty */
+.codex-editor--empty .ce-block:first-child .ce-paragraph[data-placeholder]:empty::before {
+  opacity: 1;
+}
+
+.codex-editor--toolbox-opened .ce-block:first-child .ce-paragraph[data-placeholder]:empty::before,
+.codex-editor--empty .ce-block:first-child .ce-paragraph[data-placeholder]:empty:focus::before {
+  opacity: 0;
+}
+
+.ce-paragraph p:first-of-type{
+    margin-top: 0;
+}
+
+.ce-paragraph p:last-of-type{
+    margin-bottom: 0;
+}
+</style><style>.vue-notification-group{display:block;position:fixed;z-index:5000}.vue-notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification-title{font-weight:600}.vue-notification-template{display:block;box-sizing:border-box;background:#fff;text-align:left}.vue-notification{display:block;box-sizing:border-box;text-align:left;font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187FE7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter-from,.vn-fade-leave-to{opacity:0}</style><style type="text/css">
+#arrow[data-v-20b7fd4a],
+  #arrow[data-v-20b7fd4a]::before {
+    transition: background 250ms ease-in-out;
+    position: absolute;
+    width: calc(10px - var(--popper-theme-border-width, 0px));
+    height: calc(10px - var(--popper-theme-border-width, 0px));
+    box-sizing: border-box;
+    background: var(--popper-theme-background-color);
+}
+#arrow[data-v-20b7fd4a] {
+    visibility: hidden;
+}
+#arrow[data-v-20b7fd4a]::before {
+    visibility: visible;
+    content: "";
+    transform: rotate(45deg);
+}
+
+  /* Top arrow */
+.popper[data-popper-placement^="top"] > #arrow[data-v-20b7fd4a] {
+    bottom: -5px;
+}
+.popper[data-popper-placement^="top"] > #arrow[data-v-20b7fd4a]::before {
+    border-right: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+    border-bottom: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+}
+
+  /* Bottom arrow */
+.popper[data-popper-placement^="bottom"] > #arrow[data-v-20b7fd4a] {
+    top: -5px;
+}
+.popper[data-popper-placement^="bottom"] > #arrow[data-v-20b7fd4a]::before {
+    border-left: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+    border-top: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+}
+
+  /* Left arrow */
+.popper[data-popper-placement^="left"] > #arrow[data-v-20b7fd4a] {
+    right: -5px;
+}
+.popper[data-popper-placement^="left"] > #arrow[data-v-20b7fd4a]::before {
+    border-right: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+    border-top: var(--popper-theme-border-width)
+      var(--popper-theme-border-style) var(--popper-theme-border-color);
+}
+
+  /* Right arrow */
+.popper[data-popper-placement^="right"] > #arrow[data-v-20b7fd4a] {
+    left: -5px;
+}
+</style><style type="text/css">
+.inline-block[data-v-5784ed69] {
+    display: inline-block;
+}
+.popper[data-v-5784ed69] {
+    transition: background 250ms ease-in-out;
+    background: var(--popper-theme-background-color);
+    padding: var(--popper-theme-padding);
+    color: var(--popper-theme-text-color);
+    border-radius: var(--popper-theme-border-radius);
+    border-width: var(--popper-theme-border-width);
+    border-style: var(--popper-theme-border-style);
+    border-color: var(--popper-theme-border-color);
+    box-shadow: var(--popper-theme-box-shadow);
+    z-index: var(--c81fc0a4);
+}
+.popper[data-v-5784ed69]:hover,
+  .popper:hover > #arrow[data-v-5784ed69]::before {
+    background: var(--popper-theme-background-color-hover);
+}
+.inline-block[data-v-5784ed69] {
+    display: inline-block;
+}
+.fade-enter-active[data-v-5784ed69],
+  .fade-leave-active[data-v-5784ed69] {
+    transition: opacity 0.2s ease;
+}
+.fade-enter-from[data-v-5784ed69],
+  .fade-leave-to[data-v-5784ed69] {
+    opacity: 0;
+}
+</style><style type="text/css">.avatar-cropper .avatar-cropper-overlay {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999; }
+
+.avatar-cropper .avatar-cropper-overlay-inline {
+  position: initial; }
+
+.avatar-cropper .avatar-cropper-img-input {
+  display: none; }
+
+.avatar-cropper .avatar-cropper-close {
+  float: right;
+  padding: 20px;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 100;
+  text-shadow: 0px 1px rgba(40, 40, 40, 0.3); }
+
+.avatar-cropper .avatar-cropper-mark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1); }
+
+.avatar-cropper .avatar-cropper-container {
+  background: #fff;
+  z-index: 999;
+  box-shadow: 1px 1px 5px rgba(100, 100, 100, 0.14); }
+  .avatar-cropper .avatar-cropper-container .avatar-cropper-image-container {
+    position: relative;
+    max-width: 400px;
+    height: 300px; }
+  .avatar-cropper .avatar-cropper-container img {
+    max-width: 100%;
+    height: 100%; }
+  .avatar-cropper .avatar-cropper-container .avatar-cropper-footer {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: space-between; }
+    .avatar-cropper .avatar-cropper-container .avatar-cropper-footer .avatar-cropper-btn {
+      width: 50%;
+      padding: 15px 0;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      outline: none; }
+      .avatar-cropper .avatar-cropper-container .avatar-cropper-footer .avatar-cropper-btn:hover {
+        background-color: #2aabd2;
+        color: #fff; }
+</style><meta content="extension" property="gosuslugi.plugin.extension.content"></head>
+  <body>
+    <div id="app" data-v-app=""><div data-v-ddd45d7e="" class="login-page"><div data-v-ddd45d7e="" class="logo"><svg data-v-ddd45d7e=""><use data-v-ddd45d7e="" xlink:href="/icons/icons-sprite.svg#tooster-logo"></use></svg><span data-v-ddd45d7e="">Tooster</span></div><div data-v-ddd45d7e="" class="form"><h5 data-v-ddd45d7e="" class="greeting">Добро пожаловать</h5><!----><div data-v-ddd45d7e=""><div data-v-4c59388d="" data-v-ddd45d7e="" class="input"><input data-v-4c59388d="" placeholder="Имя пользователя" tabindex="0" type="text" class="" value=""><!----><!----><!----><!----><!----></div><div data-v-4c59388d="" data-v-ddd45d7e="" class="input"><input data-v-4c59388d="" placeholder="Пароль" tabindex="0" type="password" class="password" value=""><!----><svg data-v-4c59388d="" class="icon-eye"><use data-v-4c59388d="" xlink:href="/icons/icons-sprite.svg#eye-opened"></use></svg><!----><!----><!----></div></div><!----><div data-v-ddd45d7e="" class="buttons"><label data-v-6d7f81a0="" data-v-ddd45d7e="" class="checkbox"><input data-v-6d7f81a0="" type="checkbox" checked=""><i data-v-6d7f81a0="" class="check"></i><span data-v-6d7f81a0="">Запомнить</span></label><button data-v-ddd45d7e="" disabled="">Войти</button></div><button data-v-ddd45d7e="" class="cert">Войти с сертификатом</button></div><div data-v-ddd45d7e="" class="copyright">© Copyright. РЕД-СОФТ</div></div><div class="vue-notification-group" style="width: 330px; top: 0px; right: 0px;"><div></div></div><!----></div>
+    <script src="/libs/editorjs.min.js"></script>
+  
+
+</body></html>

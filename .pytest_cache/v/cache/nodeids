@@ -1,0 +1,9 @@
+[
+  "tests/test_auth.py::test_negative_auth",
+  "tests/test_auth.py::test_positive_auth",
+  "tests/test_case.py::test_create_case",
+  "tests/test_catalog.py::test_create_catalog",
+  "tests/test_catalog_prepare.py::test_catalog_prepare",
+  "tests/test_theme.py::test_change_theme",
+  "tests/test_theme_persist.py::test_theme_persists_after_refresh"
+]
